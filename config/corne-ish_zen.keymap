@@ -14,12 +14,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        label = "ENGRAM";
-// -----------------------------------------------------------------------------------------
-// |  --- |  V  |  F  |  D  |  L  |  Q  |   |  Z  |  U   |  O  |  Y  |  W  | ---  |   
-// |  --- |  N  |  S  |  T  |  H  |  :  |   |  ;  |  A   |  E  |  I  |  C  | ---  |
-// |  --- |  P  |  B  |  M  |  R  |  ,  |   |  .  |  K   |  J  |  X  |  G  | ---  |
-//                    | --- | --- | SPC |   | SPC | ---  | --- |                         
+                        label = "ENGRAM";  
                         bindings = <
    &none &kp V &kp F &kp D &kp L &kp Q                               &kp Z &kp U &kp O  &kp Y &kp W &none 
    &none &kp N &kp S &kp T &kp H &kp COLON                           &kp SEMICOLON &kp A &kp E  &kp I &kp C &none 
@@ -29,11 +24,6 @@
                 };
                 lower_layer {
                         label = "L1";
-// -----------------------------------------------------------------------------------------
-// |  --- |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | ---  |
-// |  --- |  [  | TAB |  {  |  <  |  /  |   |  \  |  >  |  }  | UP  |  ]  | ---  |
-// |  --- |  -  |  =  |  `  |  (  |  '  |   |  "  |  )  | LFT | DWN | RGT | ---  |
-//                    | --- |     |BKSPC|   | ENT |     | --- |
                         bindings = <
    &none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &none 
    &none &kp LBKT &kp TAB &kp LBRC &kp LT &kp FSLH           &kp BSLH &kp GT &kp RBRC &kp UP &kp RBKT &none 
@@ -44,11 +34,6 @@
 
                 raise_layer {
                         label = "L2";
-// -----------------------------------------------------------------------------------------
-// |  --- |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | ---  |
-// |  --- |  z  |  x  |  c  |  v  |  ?  |   | "|" | HOM | PUP | --- | ESC | ---  | 
-// |  --- |  _  |  +  |  ~  | --- | --- |   | --- | END | PDN | --- | CAD | ---  |
-//                    | BT1 | BT2 | --- |   | --- | BT3 | BT4 |
                         bindings = <
    &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT              &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &none 
    &none &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &kp QMARK    &kp PIPE &kp HOME &kp PG_UP &trans &kp ESC &none 
