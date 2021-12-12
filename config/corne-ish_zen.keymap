@@ -53,7 +53,7 @@
    &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT              &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &none 
    &none &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &kp QMARK    &kp PIPE &kp HOME &kp PG_UP &trans &kp ESC &none 
    &none &kp UNDER &kp PLUS &kp TILDE &trans &trans               &trans &kp END  &kp PG_DN &trans &kp LC(LA(DEL)) &none 
-                    	    &kp LGUI &trans 2 &trans    &trans &trans &kp RGUI
+                    	    &kp LGUI &trans &trans    &trans &trans &kp RGUI
                         >;
                 };
         };
